@@ -1,1 +1,10 @@
-# Medical_Cybersecurity-
+# Medical Cybersecurity
+
+## Abstract
+The rapid proliferation of Internet of Medical Things (IoMT) devices has introduced new security challenges, particularly susceptibility to reconnaissance (recon) attacks that often precede more severe intrusions. In this paper, we present a lightweight, preprocessing-aware baseline for detecting recon attacks in IoMT networks using Logistic Regression. Leveraging the CICIoMT2024 dataset, we investigate the effects of various data cleaning strategies, including missing value imputation, duplicate removal, and outlier filtering, on classification performance. We evaluate both full and reduced feature sets, focusing on traffic characteristics such as packet load, byte rate, and flow duration. Experiments are conducted on three dataset variants with increasing levels of preprocessing, and model performance is assessed across binary (benign vs. recon) and multi-class (benign + 4 attack types) settings. Our findings show that Logistic Regression, when combined with appropriate preprocessing and feature selection, achieves competitive accuracy in binary classification, reaching up to 99%. However, performance degrades significantly in multi-class tasks due to data imbalance. To enhance the interpretability and portability of the system, we further developed a mobile application using MIT App Inventor that visualizes key traffic features and model predictions in real time. This study provides a transparent and reproducible benchmark for recon detection in IoMT networks, highlighting key considerations in preprocessing, feature selection, and model limitations that inform future work on secure, resource constrained medical systems. 
+
+## Paper
+S. Lloyd, M. Liu, W. Lu, “Lightweight Detection of Reconnaissance Attacks in IoMT Networks with Mobile Visualization Support,” in Proceedings of 2025 IEEE MIT Undergraduate Research Technology Conference (URTC) (in Press)
+
+## Oral Presentation: 
+[Link: MIT, Oct 11, 2025](https://drive.google.com/file/d/1uUHdaXFJeAz8ocFRRaTW9gRNLxCVh_cU/view)
